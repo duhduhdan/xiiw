@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+checkValidServiceWorker	src/registerServiceWorker.js	/^function checkValidServiceWorker(swUrl) {$/;"	f
+class.isOpen	src/App.js	/^    isOpen: false,$/;"	p
+class.phoneComponents	src/App.js	/^    phoneComponents: [$/;"	p
+from.appName	src/components/form/Form.js	/^  state = { appName: '', isiOS: false, isAndroid: false }$/;"	p
+from.isAndroid	src/components/form/Form.js	/^  state = { appName: '', isiOS: false, isAndroid: false }$/;"	p
+from.isiOS	src/components/form/Form.js	/^  state = { appName: '', isiOS: false, isAndroid: false }$/;"	p
+from.setAppElement.overlay	src/App.js	/^  overlay: {$/;"	p
+module.exports.extends	.eslintrc.js	/^  extends: 'standard',$/;"	p
+module.exports.plugins	.eslintrc.js	/^  plugins: ['react'],$/;"	p
+registerValidSW	src/registerServiceWorker.js	/^function registerValidSW(swUrl) {$/;"	f

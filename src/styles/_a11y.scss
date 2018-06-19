@@ -1,0 +1,8 @@
+.a11y:focus,
+.a11y__content:focus {
+  outline: none;
+}
+
+.a11y:focus > .a11y__content {
+  box-shadow: 0 2px 2px #51a7e8;
+}

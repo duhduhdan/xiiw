@@ -1,0 +1,80 @@
+.pixel {
+  border: 3px solid #ddd;
+  background: #ededed;
+  height: 500px;
+  width: 235px;
+  border-radius: 30px;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transform: scale(1.7);
+}
+
+.pixel:active span::after {
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 1050% 1050%;
+  background-image: radial-gradient(circle, #4183f1 10%, rgba(0, 0, 0, 0) 10%);
+}
+
+.pixel::before {
+  position: absolute;
+  display: block;
+  top: -25px;
+  background: #9b9b9b;
+  border-radius: 2px;
+  height: 4px;
+  width: 50px;
+  left: calc(50% - 25px);
+}
+
+.pixel::after {
+  content: '';
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: #9b9b9b;
+  border: 1px solid #9b9b9b;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.pixel > span {
+  content: '';
+  position: absolute;
+  left: calc(50% - 110px);
+  top: calc(50% - 200px);
+  background: #111;
+  height: 400px;
+  width: 220px;
+}
+
+.pixel > span::before {
+  content: '';
+  position: absolute;
+  height: 4px;
+  width: 20px;
+  border-radius: 3px;
+  background: #9b9b9b;
+  top: -15px;
+  left: calc(50% - 10px);
+}
+
+.pixel > span::after {
+  content: 'HELLO.';
+  color: transparent;
+  text-align: center;
+  line-height: 400px;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 25px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-position: 50%;
+  background-size: 200% 200%;
+  transition: background 0.75s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
